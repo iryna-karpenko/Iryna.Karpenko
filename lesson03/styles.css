@@ -18,7 +18,7 @@ p {
 .nav_list {
     list-style-type: none;
     display: flex;
-     justify-content: center;
+    justify-content: center;
 }
 
 .nav_link {
@@ -57,7 +57,7 @@ p {
     text-align: center;
 }
 
-.about-me{ 
+.about-me { 
     background: #F6F6F6;
     text-align: center;
 }
@@ -87,17 +87,16 @@ p {
 
 .skill {
     display: inline-block;
-   padding: 0 45px;
+    padding: 0 45px;
 }
 
 .skills_container {
     margin-top: 80px;
 }
 
-
 .portfolio {
     background:#F6F6F6;
-     }
+}
 
 .portfolio_item{
     margin-top: 100px;
@@ -127,8 +126,8 @@ p {
 }
 
 .img_conteiner {
-       margin-top: 30px;
-    }
+    margin-top: 30px;
+}
 
 .contacts {
     margin-left: 30px;
@@ -137,7 +136,7 @@ p {
 
 .p1_footer {
     font-size: 14px;
-line-height: 19px;
-color: #828282;
-margin-top: 44px;
+    line-height: 19px;
+    color: #828282;
+    margin-top: 44px;
 }
