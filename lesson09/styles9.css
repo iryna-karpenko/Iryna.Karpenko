@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url("./Roboto-Regular.ttf") 
+         format("truetype"),
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    src: url("./PTSans-Regular.ttf") 
+         format("truetype");
+}
+
+.header{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: #FFFFFF;
+    height: 100px;
+    width: 100%;
+}
+
+  .header__container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+    .box
+
+      .box__language{
+          width: 41px;
+          height: 24px;
+          padding-right: 42px;
+      }
+
+      .box__text{
+          font-family: 'Roboto';
+          font-size: 20px;
+          line-height: 23px;
+      }
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+  .content__navigation-wrapper{
+      width: 500px;
+      height: 100%;
+  }
+
+    .block__photo{
+      position: fixed;
+      bottom: 0;
+      right: 0;
+    }
+
+    .block__navigation{
+        position: fixed;
+        top: 100px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+      .nav__link {
+          color:#000000;
+          text-decoration: none;
+          font-size: 36px;
+          line-height: 42px;
+          font-weight: 700;
+      }
+
+    .content__article-wrapper{
+       position: relative;
+       top: 100px;
+       left: 500px;
+       width: 100%;
+    }
+
+    .box-1__sticky{
+        position: sticky;
+        top: 100px;
+    }
+
+      .heading__line{
+          width: 80px;
+          margin-left: 0;
+          border: 10px solid  #000000;
+      }
+
+.title, .text{
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.title {
+    font-family: 'Roboto';
+}
+
+.text{
+    font-family: 'PT Sans';
+}
+
+.text-decoration{
+    text-decoration: underline;
+}
+
+.special-text{
+    font-weight: 700;
+}
